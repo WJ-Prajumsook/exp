@@ -1,0 +1,85 @@
+= Member API Docs
+
+== GET
+Get all members
+
+/member
+
+HTTP Request:
+include::../../../target/generated-snippets/get-all-member/http-request.adoc[]
+HTTP Response:
+include::../../../target/generated-snippets/get-all-member/http-response.adoc[]
+curl Request:
+include::../../../target/generated-snippets/get-all-member/curl-request.adoc[]
+Request body:
+include::../../../target/generated-snippets/get-all-member/request-body.adoc[]
+Response body:
+include::../../../target/generated-snippets/get-all-member/response-body.adoc[]
+
+== GET
+
+Get member by ID
+
+/member/{id}
+
+HTTP Request:
+include::../../../target/generated-snippets/get-by-id/http-request.adoc[]
+HTTP Response:
+include::../../../target/generated-snippets/get-by-id/http-response.adoc[]
+curl Request:
+include::../../../target/generated-snippets/get-by-id/curl-request.adoc[]
+Request body:
+include::../../../target/generated-snippets/get-by-id/request-body.adoc[]
+Response body:
+include::../../../target/generated-snippets/get-by-id/response-body.adoc[]
+
+== POST
+
+Create a member
+
+/member
+
+HTTP Request:
+include::../../../target/generated-snippets/post/http-request.adoc[]
+HTTP Response:
+include::../../../target/generated-snippets/post/http-response.adoc[]
+curl Request:
+include::../../../target/generated-snippets/post/curl-request.adoc[]
+Request body:
+include::../../../target/generated-snippets/post/request-body.adoc[]
+Response body:
+include::../../../target/generated-snippets/post/response-body.adoc[]
+
+== PUT
+
+Update member
+
+/member
+
+HTTP Request:
+include::../../../target/generated-snippets/put/http-request.adoc[]
+HTTP Response:
+include::../../../target/generated-snippets/put/http-response.adoc[]
+curl Request:
+include::../../../target/generated-snippets/put/curl-request.adoc[]
+Request body:
+include::../../../target/generated-snippets/put/request-body.adoc[]
+Response body:
+include::../../../target/generated-snippets/put/response-body.adoc[]
+
+== DELETE
+
+Delete a member
+
+/member
+
+HTTP Request:
+include::../../../target/generated-snippets/delete/http-request.adoc[]
+HTTP Response:
+include::../../../target/generated-snippets/delete/http-response.adoc[]
+curl Request:
+include::../../../target/generated-snippets/delete/curl-request.adoc[]
+Request body:
+include::../../../target/generated-snippets/delete/request-body.adoc[]
+Response body:
+include::../../../target/generated-snippets/delete/response-body.adoc[]
